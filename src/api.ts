@@ -12,8 +12,6 @@ export const getMultiTokensPrice = async (tokens: string[]) => {
     .then((res) => res.data)
     .catch((e) => {
       console.error(e);
-
-      /// return empty price object if API throw error
       return {};
     });
   return res;
