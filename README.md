@@ -28,7 +28,6 @@ Ignored git push for this file because it's too large and need to update periodi
 ### **dev**
 
 `npm run dev`
-
 Runs the CLI application.
 
 You can pass arguments to your application by running `npm run dev -- --your-argument`. The extra `--` is so that your arguments are passed to your CLI application, and not `npm`.
